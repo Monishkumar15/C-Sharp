@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="AccessSpecifiers/AccessSpecifiers.csproj" />
+  <Project Path="AccessSpecifiers2/AccessSpecifiers2.csproj" />
+</Solution>
