@@ -8,6 +8,7 @@ namespace OopsPracticing
 {
     public class Program
     {
+    const float PI= 3.14f;
         Program() {
             Console.WriteLine("Program class");
         }
@@ -20,6 +21,7 @@ namespace OopsPracticing
             int result = calObject.CalculateSum(10, 20);
 
             Console.WriteLine(result);
+            Console.WriteLine(PI);
 
             CopyConstructor obj1 = new CopyConstructor(10);
             obj1.Display();
@@ -98,6 +100,7 @@ namespace OopsPracticing
 
             Console.WriteLine("*********************Dispose()**********************************");
             // Using the ResourceHolder with using statement
+            // C# supports the using statement to automatically call Dispose() when a scope ends. This pattern simplifies resource management and reduces leaks.
             using (var resourceHolder = new ResourceHolder())
             {
                 // Use the resource...
@@ -116,7 +119,12 @@ namespace OopsPracticing
 
             Console.ReadKey();
         }
+    public void Demo()
+        {
+            Console.WriteLine(PI);
+        }
     }
+
 }
 
     //Defining class or blueprint or template

@@ -33,6 +33,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>OopsPracticing.ConstructorChainingSuper</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -45,6 +48,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="constructor.cs" />
+    <Compile Include="ConstructorChainingSuper.cs" />
+    <Compile Include="ConstructorChainingThis.cs" />
     <Compile Include="ConstructorsDemo.cs" />
     <Compile Include="CopyConstructor.cs" />
     <Compile Include="Program.cs" />
