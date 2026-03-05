@@ -34,6 +34,11 @@ namespace AccessSpecifiers
         {
             Console.WriteLine("Hello Default Method");
         }
+
+        private protected void Test6()
+        {
+            Console.WriteLine("Private Protected Method");
+        }
         static void Main(string[] args)
         {
             Program program = new Program();
@@ -42,6 +47,7 @@ namespace AccessSpecifiers
             program.Test3();
             program.Test4();
             program.Test5();
+            program.Test6();
             program.Hello();
             Console.ReadLine();
         }

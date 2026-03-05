@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace AccessSpecifiers
 {
 
-    //consuming members of a class from non-child class of same project
+    //consuming members of a class from non-child class of same project(Assembly)
     internal class Three
     {
         static void Main()

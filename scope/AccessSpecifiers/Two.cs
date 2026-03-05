@@ -13,10 +13,11 @@ namespace AccessSpecifiers
         static void Main()
         {
             Two two = new Two();
-            two.Test2();
-            two.Test3();
-            two.Test4();
-            two.Test5();
+            two.Test2();//Internal Method
+            two.Test3();//Protected Method
+            two.Test4();//Protected Internal Method
+            two.Test5();//Public Method
+            two.Test6();//Private Protected Method
             //two.Hello(); 'Program.Hello()' is inaccessible due to its protection level 
             Console.ReadLine();
         }
