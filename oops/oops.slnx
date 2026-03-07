@@ -1,3 +1,8 @@
 <Solution>
+  <Project Path="Delegates/Delegates.csproj" Id="68726ed6-c7be-49cb-9df2-299de318c058" />
+  <Project Path="Indexer/Indexer.csproj" Id="a11b01c9-80a8-42d7-b3fd-3ebdf9b84c9e" />
+  <Project Path="Inheritance/Inheritance.csproj" Id="3f0db218-4365-4afb-83b7-91c0eac60847" />
+  <Project Path="Interface/Interface.csproj" Id="8d758d04-f333-4e33-8271-b578dd8cd311" />
   <Project Path="OopsPracticing/OopsPracticing.csproj" Id="b08b194e-8600-43d5-82ff-c18ad00f3e6c" />
+  <Project Path="Polymorphism/Polymorphism.csproj" Id="b05eb7ae-c9b4-47d2-bafe-9db2bca396f9" />
 </Solution>
