@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Collections.ArrayListClone</StartupObject>
+    <StartupObject>Collections.SortedListCopy</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -49,8 +49,11 @@
     <Compile Include="ArrayListClone.cs" />
     <Compile Include="ArrayListDemo.cs" />
     <Compile Include="ArrayListDemo2.cs" />
+    <Compile Include="HashTable.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SortedListCopy.cs" />
+    <Compile Include="SortedListDemo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
