@@ -6,17 +6,20 @@ using System.Threading.Tasks;
 
 namespace PartialClass
 {
-    public partial class Employee
+    public partial class Employee : Customer
     {
+        public Employee() { }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Gender { get; set; }
         public double Salary { get; set; }
+
+        public partial void DisplayFullName();
     }
 
     public partial class Employee
     {
-        public void DisplayFullName()
+        public partial void DisplayFullName()
         {
             Console.WriteLine($"Full Name is : {FirstName} {LastName}");
         }
@@ -29,6 +32,5 @@ namespace PartialClass
             Console.WriteLine($"Salary: {Salary}");
         }
 
-        }
-
     }
+}
