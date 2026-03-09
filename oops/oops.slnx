@@ -1,5 +1,6 @@
 <Solution>
   <Project Path="Delegates/Delegates.csproj" Id="68726ed6-c7be-49cb-9df2-299de318c058" />
+  <Project Path="ExtensionMethodsProject/ExtensionMethodsProject.csproj" Id="2a244718-c894-4558-97ae-8d9f22d4bc09" />
   <Project Path="Indexer/Indexer.csproj" Id="a11b01c9-80a8-42d7-b3fd-3ebdf9b84c9e" />
   <Project Path="Inheritance/Inheritance.csproj" Id="3f0db218-4365-4afb-83b7-91c0eac60847" />
   <Project Path="Interface/Interface.csproj" Id="8d758d04-f333-4e33-8271-b578dd8cd311" />

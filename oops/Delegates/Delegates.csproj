@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Delegates.GenericDelegates</StartupObject>
+    <StartupObject>Delegates.WorkerDriver</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -53,6 +53,10 @@
     <Compile Include="MultiCastDelegates2.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ResponsiveCallbackClass.cs" />
+    <Compile Include="WorkerDriver.cs" />
+    <Compile Include="WorkPerformedEventArgs.cs" />
+    <Compile Include="Wroker.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
