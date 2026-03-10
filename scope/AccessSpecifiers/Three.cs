@@ -16,6 +16,7 @@ namespace AccessSpecifiers
             program.Test2();// Internal Method
             program.Test4();// Protected Internal Method
             program.Test5();// Public Method
+            //program.test6(); CTE 
         }
     }
 }
