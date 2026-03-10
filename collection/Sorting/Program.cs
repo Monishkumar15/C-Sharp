@@ -8,6 +8,9 @@ namespace Sorting
 {
     internal class Program
     {
+        public static int compareDepartment(Employee e1, Employee e2) {
+            return e1.EDepartment.CompareTo(e2.EDepartment);
+        }
         static void Main(string[] args)
         {
             List<Employee> employees = new List<Employee>();
@@ -44,6 +47,40 @@ namespace Sorting
             {
                 Console.WriteLine(employee);
             }
+            employees.Reverse();
+            Console.WriteLine("\nEmployee sorting based on EName using and specific range IComparer<Employee>\n");
+            employees.Sort(2, 3, sortName);
+            foreach (Employee employee in employees)
+            {
+                Console.WriteLine(employee);
+            }
+
+            Console.WriteLine("\nEmployee sorting based on EName using delegates\n");
+            Console.WriteLine("1st way");
+            Comparison<Employee> obj1 = new Comparison<Employee>(compareDepartment);
+            employees.Sort(obj1);
+            foreach (Employee employee in employees)
+            {
+                Console.WriteLine(employee);
+            }
+
+            Console.WriteLine("2nd way using delegates sort by address");
+            employees.Sort(delegate (Employee e1, Employee e2) {
+                return e1.EAddress.CompareTo(e2.EAddress);
+            });
+            foreach (Employee employee in employees)
+            {
+                Console.WriteLine(employee);
+            }
+
+            Console.WriteLine("3rd way using delegates sort by department in descending order");
+            employees.Sort((Employee e1, Employee e2) => e2.EDepartment.CompareTo(e1.EDepartment));
+            foreach (Employee employee in employees)
+            {
+                Console.WriteLine(employee);
+            }
+
+            //employees.Sort(1,4,obj1);
 
             Console.ReadLine();
         }
