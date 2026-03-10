@@ -1,3 +1,4 @@
 <Solution>
   <Project Path="Collections/Collections.csproj" Id="51d55c2b-a2e9-451b-ab39-ed9df27a48ec" />
+  <Project Path="Sorting/Sorting.csproj" Id="c7e5734c-a7f1-4aa1-9361-64d049ffffbd" />
 </Solution>
