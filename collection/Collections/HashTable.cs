@@ -1,15 +1,11 @@
 ﻿using System;
 using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Collections
 {
     public class HashTable
     {
-         public static void Main(string[] args)
+        public static void Main(string[] args)
         {
             //Creating Hashtable collection with default constructor
             Hashtable hashtable = new Hashtable();
@@ -58,7 +54,7 @@ namespace Collections
             lock (hashtable.SyncRoot)
             {
 
-            Console.WriteLine("SyncRoot in lock: " + hashtable.SyncRoot);
+                Console.WriteLine("SyncRoot in lock: " + hashtable.SyncRoot);
             }
             Console.WriteLine("SyncRoot: " + hashtable.SyncRoot);
 

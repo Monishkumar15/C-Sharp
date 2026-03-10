@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Collections
 {
@@ -50,8 +47,8 @@ namespace Collections
             {
                 Console.WriteLine($"{key} ");
             }
-            ArrayList arrayList1 = new ArrayList { 1,2,3,4  };
-            ArrayList arrayList2 = new ArrayList{5,6,7,8};
+            ArrayList arrayList1 = new ArrayList { 1, 2, 3, 4 };
+            ArrayList arrayList2 = new ArrayList { 5, 6, 7, 8 };
             List<ArrayList> obj = new List<ArrayList>();
             obj.Add(arrayList1);
             obj.Add(arrayList2);
