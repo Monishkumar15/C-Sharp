@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Threading.ThreadPerformance</StartupObject>
+    <StartupObject>Threading.Demo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,15 +46,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DeadLockDemo.cs" />
+    <Compile Include="Demo.cs" />
+    <Compile Include="IsAliveProperty.cs" />
+    <Compile Include="MonitorOddEvenSequence.cs" />
+    <Compile Include="MonitorThread.cs" />
+    <Compile Include="MultithreadingDemo.cs" />
+    <Compile Include="MutexDemo.cs" />
+    <Compile Include="Number.cs" />
+    <Compile Include="NumberHelper.cs" />
     <Compile Include="ParameterizedThread.cs" />
+    <Compile Include="SemaphoreDemo.cs" />
+    <Compile Include="SemaphoreDemo2.cs" />
     <Compile Include="Thread1.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ThreadLocking.cs" />
     <Compile Include="ThreadPerformance.cs" />
     <Compile Include="ThreadPriorities.cs" />
+    <Compile Include="ThreadPriorityDemo.cs" />
+    <Compile Include="ThreadStateDemo.cs" />
+    <Compile Include="ThreadSynchronizationDemo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include=".editorconfig" />
     <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
